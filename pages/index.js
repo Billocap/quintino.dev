@@ -5,7 +5,10 @@ export default function Home() {
             <h2>React / Next.JS Developer</h2>
 
             <p>
-                My website still <b>under construction</b> but until then, here are the places you can see my work:
+                This website is <b>under construction</b>!
+            </p>
+            <p>
+                But here are other places you can see my work:
             </p>
             
             <ul>
@@ -41,13 +44,13 @@ export default function Home() {
 
             <p>And here is some of my contacts:</p>
             <ul>
-                <li>
+                {/*<li>
                     <a
                         href="https://mywhats.net/1388650"
                         target="_blank"
                         rel="noreferrer"
                     >Whatsapp</a>
-                </li>
+                </li>*/}
                 <li>
                     <a
                         href="mailto:pikachurando@pm.me"
