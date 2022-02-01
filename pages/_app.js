@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
 
-import 'styles/globals.css'
+import 'styles/_font.css';
+import 'styles/globals.css';
 
 export default function MyApp({ Component, pageProps }) {
 	return (
