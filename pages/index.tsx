@@ -18,7 +18,6 @@ export default function Home() {
                 <div className="font-bold text-black">
                     <a href="#projects" className="px-5">Projects</a>
                     <a href="#contacts" className="px-5">Contact</a>
-                    <a href="./resume.pdf" download className="px-5">Resume</a>
                 </div>
             </div>
             <div className="w-full h-screen flex flex-row items-center justify-center">
