@@ -107,8 +107,8 @@ export default function Home() {
                         <p className="text-xs text-right">
                             HTML - CSS - JavaScript - JQuery
                         </p>
-                        <a href="https://codepen.io/Pikachurin/pen/KKddLqz" target="_blank" className="text-3xl mt-2" rel="noreferrer">
-                            <FontAwesomeIcon icon={faCodepen}/>
+                        <a href="https://codepen.io/Pikachurin/pen/KKddLqz" target="_blank" className="mt-2" rel="noreferrer">
+                            <FontAwesomeIcon size="sm" icon={faCodepen}/>
                         </a>
                     </div>
 

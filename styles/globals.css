@@ -39,6 +39,12 @@ ul li {
 	border-radius: 3px;
 }
 
+svg {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+
 ::-webkit-scrollbar {
 	display: none;
 }
