@@ -18,6 +18,7 @@ export default function Home() {
                 <div className="font-bold text-black">
                     <a href="#projects" className="px-5">Projects</a>
                     <a href="#contacts" className="px-5">Contact</a>
+                    <a href="https://pikachurin.medium.com/" target="_blank" rel="noreferrer">Blog</a>
                 </div>
             </div>
             <div className="w-full h-screen flex flex-row items-center justify-center">
@@ -34,7 +35,7 @@ export default function Home() {
                 <h3 className="text-5xl font-bold mb-4">Projects</h3>
 
                 <div className="w-full flex flex-col md:flex-row items-center">
-                    <img src="https://codepen.io/Pikachurin/pen/ExZBMRV/image/large.png" alt="Pure CSS Game Boy" width="500" className="rounded"/>  
+                    <img src="https://codepen.io/Pikachurin/pen/ExZBMRV/image/large.png" alt="Pure CSS Game Boy" width="500" className="rounded"/>
 
                     <div className="p-4">
                         <h1 className="font-bold text-3xl">
