@@ -1,4 +1,0 @@
-.container {
-    @apply w-screen h-screen;
-    @apply overflow-y-auto;
-}
