@@ -1,0 +1,22 @@
+.solid {
+  position: relative;
+  border-radius: 5px;
+  background: transparent;
+  transition: background 0.2s;
+}
+
+.solid.active {
+  background: var(--accent);
+}
+
+.solid:not(.active):hover {
+  background: var(--accent);
+}
+
+.solid.active .border {
+  display: block;
+}
+
+.solid:not(.active) .border {
+  display: none;
+}

@@ -1,8 +1,11 @@
-import Head from 'next/head';
-import { Fragment } from 'react';
+import Head from 'next/head'
+import { Fragment } from 'react'
 
-import 'styles/_font.css';
-import 'styles/globals.css';
+import AppController from 'contexts/AppContext'
+
+import 'styles/_font.css'
+import 'styles/globals.css'
+import 'styles/animations.css'
 
 export default function MyApp({ Component, pageProps }) {
 	return (
@@ -11,10 +14,12 @@ export default function MyApp({ Component, pageProps }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				<link rel="shortcut icon" href="./favicon.png" type="image/x-icon"/>
 				
-				<title>Gabriel Quintino | React / Next.js Developer</title>
+				<title>Gabriel Quintino | JavaScript &amp; Typescript Developer</title>
 			</Head>
 
-			<Component {...pageProps}/>
+			<AppController>
+				<Component {...pageProps}/>
+			</AppController>
 		</Fragment>
-	);
+	)
 }

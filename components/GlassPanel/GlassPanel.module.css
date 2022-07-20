@@ -1,0 +1,12 @@
+.panel {
+  position: relative;
+  width: 100%;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background: #262E33BF;
+  backdrop-filter: blur(10px);
+}
+
+.panel * {
+  z-index: 2;
+}

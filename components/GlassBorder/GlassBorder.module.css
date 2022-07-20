@@ -1,0 +1,7 @@
+.border {
+  position: absolute;
+  width: calc(100% + 0.5px);
+  height: calc(100% + 0.5px);
+  top: -0.5px;
+  bottom: -0.5px;
+}

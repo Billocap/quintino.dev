@@ -4,7 +4,13 @@ import { ScrollContext } from "contexts/ScrollContext"
 
 import styles from "./ScrollController.module.css"
 
-export default function ScrollController({children}) {
+interface ScrollControllerProps {
+	children: any
+}
+
+export default function ScrollController({
+	children
+}: ScrollControllerProps) {
 	const [scrolled, setScrolled] = useState(false)
 
 	const containerRef = useRef<HTMLDivElement>(null)
@@ -13,7 +19,7 @@ export default function ScrollController({children}) {
 		setScrolled(true)
 	}
 
-	const contextValue = {
+	const contextValue: ScrollContext = {
 		scrolled,
 		container: containerRef.current
 	}

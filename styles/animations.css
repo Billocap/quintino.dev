@@ -1,0 +1,49 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    top: 50px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    right: 0%;
+  }
+
+  to {
+    right: 100%;
+  }
+}

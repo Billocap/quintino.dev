@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+  background: transparent;
+  transition: background 0.2s;
+}
+
+.item:hover {
+  background: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
