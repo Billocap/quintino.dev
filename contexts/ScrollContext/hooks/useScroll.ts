@@ -16,6 +16,10 @@ export default function useScroll(
 	const { scrolled, container } = useContext(ScrollContext)
 
 	useEffect(() => {
-		callback(container)
-	}, [scrolled, container, callback])
+		if(container) callback(container)
+	}, [
+		scrolled,
+		container,
+		callback
+	])
 }

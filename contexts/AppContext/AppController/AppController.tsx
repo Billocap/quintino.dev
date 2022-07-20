@@ -11,11 +11,20 @@ interface AppControllerProps {
 export default function AppController({
 	children
 }: AppControllerProps) {
-	const [currentSection, setCurrentSection] = useState("#home")
+	const [currentSection, setCurrentSection] = useState("home")
 
 	const contextValue: AppContext = {
 		config: {
-			sections: []
+			sections: [
+				{
+					name: "Home",
+					id: "home"
+				},
+				{
+					name: "About",
+					id: "about"
+				}
+			]
 		},
 		currentSection,
 		setCurrentSection

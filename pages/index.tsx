@@ -14,7 +14,7 @@ export default function Home() {
 				<Header/>
 				<ScrollController>
 					<HomeSection/>
-					{/* <AboutSection/> */}
+					<AboutSection/>
 				</ScrollController>
 			</GlassPanel>
 		</div>

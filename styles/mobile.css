@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+  .section {
+    padding: 50px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    grid-template-columns: auto;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

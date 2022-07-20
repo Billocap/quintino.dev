@@ -6,6 +6,7 @@ import AppController from 'contexts/AppContext'
 import 'styles/_font.css'
 import 'styles/globals.css'
 import 'styles/animations.css'
+import 'styles/mobile.css'
 
 export default function MyApp({ Component, pageProps }) {
 	return (
